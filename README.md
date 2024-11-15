@@ -25,6 +25,9 @@ A Python application that enables computer control through hand gestures using c
 ## Installation
 
 1. Clone this repository
+```bash
+git clone https://github.com/hashim1213/HandTrackMouse.git
+```
 2. Set up environment 
 ```bash
 python3 -m venv venv
