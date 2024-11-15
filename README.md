@@ -25,7 +25,15 @@ A Python application that enables computer control through hand gestures using c
 ## Installation
 
 1. Clone this repository
-2. Install dependencies:
+2. Set up environment 
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+//Windows 
+`venv\Scripts\activate`
+```
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -34,7 +42,7 @@ pip install -r requirements.txt
 
 1. Run the application:
 ```bash
-python hand_controller.py
+python HandTrack.py
 ```
 
 2. Select your preferred hand (left/right)
