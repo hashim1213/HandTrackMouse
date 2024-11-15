@@ -1,0 +1,42 @@
+{
+  "gestures": [
+    {
+      "name": "Left Click",
+      "finger_states": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "thumb_index_dist": 0.04,
+      "thumb_middle_dist": 0.08,
+      "action": "click",
+      "action_params": {},
+      "cooldown": 0.3
+    },
+    {
+      "name": "Right Click",
+      "finger_states": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "thumb_index_dist": 0.08,
+      "thumb_middle_dist": 0.04,
+      "action": "right_click",
+      "action_params": {},
+      "cooldown": 0.3
+    }
+  ],
+  "filter": {
+    "movement_smoothing": 1.0,
+    "jitter_threshold": 1.0034220532319393,
+    "kalman_process_noise": 0.001,
+    "kalman_measurement_noise": 0.1,
+    "averaging_window": 5,
+    "deadzone_radius": 2.127659574468085
+  }
+}
