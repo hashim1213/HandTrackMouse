@@ -57,3 +57,7 @@ python HandTrack.py
 - Python 3.8+
 - Webcam
 - Sufficient lighting for hand detection
+
+##Screenshot of GUI
+
+![screenshot](screenshot.png)
